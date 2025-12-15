@@ -7,13 +7,11 @@
 python3 ./phase1_detect_dt.py dataset/1000.csv
 
 #### For the Classification
-python3 phase2_classify_dt.py\
- --input dataset/1000_phase1.csv
+python3 phase2_classify_dt.py --input dataset/1000_phase1.csv
 
 ### For the XGBoost
 #### For the Detection
 python3 phase1_detect_XGB.py dataset/1000.csv
 
 #### For the Classification
-python3 phase2_classify_XGB.py\
- --input dataset/1000_phase1.csv
+python3 phase2_classify_XGB.py --input dataset/1000_phase1.csv
